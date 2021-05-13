@@ -13,7 +13,7 @@ def findSmallest(list_of_numbers):
         if num < smallest:
             smallest = num
     return smallest
-print("The smallest number is: " + str(findSmallest([-23,22,1,-34,34,322])))
+print("The smallest number is: " + str(findSmallest(numberList)))
 
 # Medium exercise 2 - Find largest
 def findLargest(list_of_numbers):
@@ -22,7 +22,7 @@ def findLargest(list_of_numbers):
         if num > largest:
             largest = num
     return largest
-print("The largest number is: " + str(findLargest([-23,22,1,-34,34,322])))
+print("The largest number is: " + str(findLargest(numberList)))
 
 # Medium exercise 3 - Find shortest string
 def shortestString(list_of_strings):
